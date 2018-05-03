@@ -1,0 +1,26 @@
+{
+    "name": "daniele.scillia/wp_nonce_oop",
+    "description": "A PHP Class for Wordpress Nonce functions",
+    "keywords": ["wordpress", "wp", "nonce"],
+    "type": "package",
+    "require": {
+      "php": ">=5.4",
+      "johnpbloch/wordpress": "4.2"
+    },
+    "extra": {
+      "wordpress-install-dir": "wp"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Daniele Scillia",
+        "email": "daniele.scillia@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "WpClasses\\": "src/WpClasses/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+
+}
